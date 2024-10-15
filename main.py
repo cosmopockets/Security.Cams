@@ -4,7 +4,7 @@ from gps_plotter.plotter import GPSTracker
 def main():
     # load coordinates from data/coordinates.csv
     print("Reading coordinates from csv file")
-
+    #print(coords_df.columns)
     coords_df = pd.read_csv('data/coordinates.csv')
     coordinates = list(zip(coords_df['latitude'],coords_df['longitude']))
 
