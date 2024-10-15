@@ -1,3 +1,9 @@
+# Personal project specific files
+*.csv
+gpsMap.html
+
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
