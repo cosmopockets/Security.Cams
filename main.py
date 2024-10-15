@@ -1,4 +1,4 @@
-import pansas as pd
+import pandas as pd
 from gps_plotter.plotter import GPSTracker
 
 def main():
