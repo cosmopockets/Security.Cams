@@ -5,7 +5,7 @@ class GPSTracker:
     def __init__(self, coordinates):
         self.coordinates = coordinates
 
-    def plot(self)
+    def plot(self):
         # Create folium map centered around the coordinates
         gpsmap = folium.map(location=self.coordinates[0], zoom_start=12)
 
