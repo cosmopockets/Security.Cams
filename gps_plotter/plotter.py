@@ -10,7 +10,6 @@ class GPSTracker:
         gpsmap = folium.Map(location=self.coordinates[0], zoom_start=12)
 
         # add gps points to the map
-
         for gpsCoordinates in self.coordinates:
             folium.Marker(location=gpsCoordinates).add_to(gpsmap)
 
